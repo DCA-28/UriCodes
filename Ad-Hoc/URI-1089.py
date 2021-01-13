@@ -20,10 +20,10 @@ def loop(samples, values):
 
     magnitude.append(vector[0])
 
-    #vector to find peaks is made
+    # vector to find peaks is made
 
     for i in range(1, n+1):
-        #think i could be smarter here without that 'or'
+        # think i could be smarter here without that 'or'
         
         if(((magnitude[i] < magnitude[i-1]) and (magnitude[i] < magnitude[i+1])) or ((magnitude[i] > magnitude[i-1]) and (magnitude[i] > magnitude[i+1]))): 
 
@@ -59,7 +59,7 @@ while(True):
 
         vectorOfValues.append(values)
         
-#calling the function as long as exist inputs
+# calling the function as long as exist inputs
 
 for i in range(0, len(vectorOfSamples)):
 
