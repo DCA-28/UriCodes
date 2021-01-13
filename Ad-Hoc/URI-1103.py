@@ -26,7 +26,7 @@ def hoursCount(vectorValues):
 
         totalMinutes = 1440 - (values[1] - values[3])
 
-    while(values[0] != values[2]): #enquanto as horas não forem iguas
+    while(values[0] != values[2]): # enquanto as horas não forem iguas
 
         if(values[1] != 0):
 
@@ -42,7 +42,7 @@ def hoursCount(vectorValues):
 
             totalMinutes = totalMinutes + 60
             
-            values[0] = plus(values[0], 1) #até aqui esta certa a hora, falta o minuto
+            values[0] = plus(values[0], 1) # até aqui esta certa a hora, falta o minuto
 
     #somar os minutos restantes, até aqui está correto
 
