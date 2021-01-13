@@ -8,7 +8,7 @@ def findTautogram(mySentence):
 
     firstLetter.append(myInput[0])
 
-    for i in range(1, len(myInput)):  #saving the first letter in an array
+    for i in range(1, len(myInput)):  # saving the first letter in an array
 
         if(myInput[i-1] == ' '):
 
@@ -18,7 +18,7 @@ def findTautogram(mySentence):
 
         if( (abs(ord(firstLetter[0]) - ord(firstLetter[i]))) == 0 or (abs(ord(firstLetter[0]) - ord(firstLetter[i]))) == 32):
 
-            continue                   #checking if it is a tautogram
+            continue                   # checking if it is a tautogram
 
         else:
 
